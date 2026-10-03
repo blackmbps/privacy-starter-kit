@@ -1,0 +1,19 @@
+# Privacy check: Bearer re-scans changed code on every pull request and fails
+# when a NEW sensitive data flow appears. Existing findings only warn, so
+# adding this to a legacy repo does not break the build on day one.
+name: privacy-check
+on: pull_request
+permissions:
+  contents: read
+jobs:
+  bearer:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Run Bearer diff scan
+        uses: bearer/bearer-action@v2
+        with:
+          diff: true
+          severity: critical,high

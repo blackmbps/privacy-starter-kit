@@ -1,0 +1,12 @@
+{
+  "name": "glowjournal",
+  "version": "1.0.0",
+  "description": "GlowJournal - a vibe-coded wellness journaling app (intentionally imperfect sample for the Scan It, Map It, Ship It workshop)",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.19.0",
+    "pg": "^8.11.0",
+    "openai": "^4.50.0",
+    "@sentry/node": "^8.0.0"
+  }
+}
