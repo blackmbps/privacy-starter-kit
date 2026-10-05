@@ -1,9 +1,9 @@
-# The 8-question decision tree (your laws, in 3 minutes)
+# The 16-question decision tree (your laws, in 3 minutes)
 
 Answer yes/no/unsure. Your "yes" answers are your sector overlay; feed them
 to Prompt 3.
 
-!. Health & wellness: Does the code collect, store, transmit, infer, or share health or wellness information—including symptoms, diagnoses, medications, mental health, reproductive health, sleep, or fitness data?
+1. Health & wellness: Does the code collect, store, transmit, infer, or share health or wellness information—including symptoms, diagnoses, medications, mental health, reproductive health, sleep, or fitness data?
 2. Financial information: Does the code handle bank-account information, payment information, financial-account credentials, credit information, lending information, or information used to assess financial eligibility?
 3. Children: Is the product directed to children under 13, or does the company knowingly collect personal information from children under 13?
 4. Geography: Where are your users located? Do you intentionally offer the product to users in particular U.S. states or countries, including the EU/EEA?
