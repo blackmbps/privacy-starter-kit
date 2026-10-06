@@ -17,9 +17,3 @@ Alternative: an AI coding assistant can do steps 1-3 for you. Prompt:
 "Read this repo and produce the Bearer-style inventory in the table above,
 citing file:line for every row; mark anything uncertain." Label the result
 AI-assisted and verify every row before relying on it.
-
-
-Alternative: an AI coding assistant can do steps 1-3 for you. Prompt:
-"Read this repo and produce the Bearer-style inventory in the table above,
-citing file:line for every row; mark anything uncertain." Label the result
-AI-assisted and verify every row before relying on it.
