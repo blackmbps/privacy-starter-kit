@@ -26,7 +26,7 @@ Windows: use WSL, or Docker: `docker pull bearer/bearer`.
 | `sample-app/` | GlowJournal, a deliberately imperfect wellness app with planted privacy findings |
 | `scan.sh` | Scanner wrapper: privacy + security reports, language census, diagnostic bundle |
 | `prompt-pack/` | 7 prompts that turn scan JSON into your privacy program documents |
-| `worksheets/` | The 8-question decision tree + manual inventory worksheet (Rust/C#/Swift/Kotlin) |
+| `worksheets/` | The 20-question decision tree (live nine + risk assessment) + manual inventory worksheet (Rust/C#/Swift/Kotlin)
 | `.github/workflows/privacy.yml` | The CI check: every pull request gets a privacy review |
 | `outputs/` | Where scan JSON and your diagnostic land (gitignored) |
 
